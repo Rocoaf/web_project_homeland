@@ -1,7 +1,6 @@
 .content {
   position: relative;
   margin-top: 91px;
-  margin-bottom: 132px;
 }
 .content__lead {
   box-sizing: border-box;
@@ -134,9 +133,9 @@
 
 @media (max-width: 320px) {
   .content {
-    margin-top: 50px;
-    margin-bottom: 102px;
-    padding-bottom: 64px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   .content__lead {
     width: 320px;
@@ -174,5 +173,10 @@
     font-size: 32px;
     line-height: 35px;
     margin: 0;
+  }
+  .content__subtitle-intro {
+    line-height: 30px;
+    width: 288px;
+    height: 300px;
   }
 }
