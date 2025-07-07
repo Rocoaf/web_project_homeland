@@ -3,12 +3,9 @@
   margin: 0;
   color: #ffffff;
   background-color: #2a2c2f;
-  font-family: "inter";
+  font-family: "Inter-Regular";
 }
-@font-face {
-  font-family: "inter";
-  src: url(/vendor/Inter.ttc);
-}
+
 @media (max-width: 768px) {
   .page {
     max-width: 768px;
