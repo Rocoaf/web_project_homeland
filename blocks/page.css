@@ -1,18 +1,21 @@
-.page {
-  width: 1280px;
-  margin: 0;
-  color: #ffffff;
+body {
   background-color: #2a2c2f;
+}
+.page {
+  width: 100%;
+  margin: auto;
+  color: #ffffff;
+  /* background-color: #2a2c2f; */
   font-family: "Inter-Regular";
 }
 
-@media (max-width: 768px) {
+@media screen and (min-width: 545px) and (max-width: 1024px) {
   .page {
     max-width: 768px;
     margin: 0;
   }
 }
-@media (max-width: 320px) {
+@media screen and (min-width: 320px) and (max-width: 544px) {
   .page {
     max-width: 320px;
     margin: 0;

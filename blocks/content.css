@@ -66,7 +66,7 @@
   font-size: 16px;
   line-height: 163%;
 }
-@media (max-width: 768px) {
+@media screen and (min-width: 545px) and (max-width: 1024px) {
   .content {
     margin-top: 90px;
     margin-bottom: 128px;
@@ -131,7 +131,7 @@
   }
 }
 
-@media (max-width: 320px) {
+@media screen and (min-width: 320px) and (max-width: 544px) {
   .content {
     display: flex;
     flex-direction: column;

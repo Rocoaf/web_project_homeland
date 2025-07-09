@@ -6,17 +6,19 @@
   align-items: center;
 }
 .header__logo {
+  display: flex;
+  justify-content: center;
   margin-top: 34px;
   width: 254px;
   height: 69px;
 }
-@media (max-width: 768px) {
+@media screen and (min-width: 545px) and (max-width: 1024px) {
   .header__logo {
     margin-top: 30px;
     height: 66px;
   }
 }
-@media (max-width: 320px) {
+@media screen and (min-width: 320px) and (max-width: 544px) {
   .header__logo {
     margin-top: 20px;
     width: 188px;
