@@ -1,0 +1,39 @@
+.photo__grid {
+  display: flex;
+  justify-self: center;
+  max-width: 1184px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 16px 16px;
+}
+.photo__grid-image {
+  max-width: 284px;
+  height: 213px;
+  object-fit: fill;
+}
+@media screen and (min-width: 545px) and (max-width: 1024px) {
+  .photo__grid {
+    max-width: 720px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-gap: 16px;
+  }
+  .photo__grid-image {
+    width: 352px;
+    object-fit: fill;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 544px) {
+  .photo__grid {
+    max-width: 288px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-row-gap: 12px;
+  }
+  .photo__grid-image {
+    object-fit: cover;
+    height: 216px;
+  }
+}
