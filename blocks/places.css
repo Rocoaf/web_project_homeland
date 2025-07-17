@@ -58,11 +58,11 @@ h4 {
   background: linear-gradient(90deg, #0278fe 0%, #003a7b 99.98%);
   box-shadow: 5px 5px 10px 0px #00000040;
 }
-.button__decoration {
+.places__button-decoration {
   text-decoration: none;
   color: #ffffff;
 }
-.button__decoration:hover {
+.places__button-decoration:hover {
   color: #ffffff;
   opacity: 50%;
 }
