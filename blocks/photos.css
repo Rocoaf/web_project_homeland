@@ -13,7 +13,7 @@
   object-fit: fill;
 }
 @media screen and (min-width: 545px) and (max-width: 1024px) {
-  .photos__grid {
+  .photos {
     max-width: 720px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -26,7 +26,7 @@
   }
 }
 @media screen and (min-width: 320px) and (max-width: 544px) {
-  .photos__grid {
+  .photos {
     max-width: 288px;
     display: grid;
     grid-template-columns: 1fr;
